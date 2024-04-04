@@ -1,0 +1,145 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>SignUp Page</title>
+	</head>
+	<body>
+		<form id="bord">
+			<fieldset form="bord">
+				<legend>Sign Up Page</legend>
+				<div class="firstrow">
+					<div class="named">
+						<label>Input Name:</label>
+						<input class="name"></input>
+					</div>
+					<div class="preferd">
+						<label>Input Preferred username:</label>
+						<input class="prefer"></input>
+					</div>
+				</div>
+				<div class="secondrow">	
+					<div class="passd">
+						<label>Input Password:</label>
+						<input class="pass"></input>
+					</div>
+					<div class="cpassd">
+						<label>Confirm Password:</label>
+						<input class="cpass"></input>
+					</div>
+				</div>	
+				<div class="emaild">
+					<label>Input Email Address:</label>
+					<input type="email" class="emaili"></input>
+				</div>
+				<div class="interestd">
+					<label>Write a short paragraph about your interests:</label>
+					<textarea class="interest" rows="4" cols="50"></textarea>
+				</div>
+				<input class="sub" type="submit" value="Submit">
+				<input class="res" type="reset" value="Clear">
+			</fieldset>
+		</form>
+		
+	</body>
+	<script>
+		
+	</script>
+	<style>
+		body{
+			text-align: center;
+		}
+		#bord{
+			margin: auto;
+			border:solid black 2px;
+			padding: 10px 10px 10px 10px;
+			width: 30%;
+			background-color: #eece9f;
+		}
+		fieldset{
+			border:solid black 2px;
+			background-color: #1b1b1b;
+		}
+		legend{
+			color: #fff;
+			border:solid black 1px;
+			font-size: 30px;
+			font-family: MS;
+			background-color: rgba(0,0,0,.5);
+		}
+		label{
+			display: inline-block;
+			font-family: Cursive;
+		}
+		.firstrow, .secondrow{
+			display: flex;
+		}
+		.named{
+			color: #fff;
+			border: solid white 1px;
+			padding-bottom: 10px;
+			margin-left: auto;
+			margin-right: 5px;
+			margin-bottom: 30px;
+			padding-top: 10px;
+			width: 75%;
+		}
+		.preferd{
+			color: #fff;
+			border: solid white 1px;
+			padding-bottom: 10px;
+			margin-left: 5px;
+			margin-right: auto;
+			margin-bottom: 30px;
+			padding-top: 10px;
+			width: 75%;
+		}
+		.passd{
+			color: #fff;
+			border: solid white 1px;
+			padding-bottom: 10px;
+			margin-left: auto;
+			margin-right: 5px;
+			margin-bottom: 30px;
+			padding-top: 10px;
+			width: 75%;
+		}
+		.cpassd{
+			color: #fff;
+			border: solid white 1px;
+			padding-bottom: 10px;
+			margin-left: 5px;
+			margin-right: auto;
+			margin-bottom: 30px;
+			padding-top: 10px;
+			width: 75%;
+		}
+		.emaild{
+			color: #fff;
+			border: solid white 1px;
+			padding-bottom: 10px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 30px;
+			padding-top: 10px;
+			width: 75%;
+		}
+		.interestd{
+			color: #fff;
+			border: solid white 1px;
+			padding-bottom: 10px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 30px;
+			padding-top: 10px;
+			width: 75%;
+		}
+		.sub,.res{
+			font-weight: bold;
+			width: 100px;
+			height: 40px;
+			border: solid black 2px;
+			border-radius: 10px;
+			background-color: #F0E68C;
+		}
+	</style>
+</html>
